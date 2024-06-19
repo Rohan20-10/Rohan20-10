@@ -32,8 +32,8 @@
         <img src="https://i.pinimg.com/originals/91/90/8a/91908ad2f9aef293ed840739a291e9db.gif"
             style="width: 200px; height: auto;" alt="Animated GIF" />
     </div>
-    <div style="flex: 1; border: 1px solid #ccc; padding: 10px; border-radius: 5px; background-color: #f9f9f9; overflow-x: auto;">
-        <pre style="margin: 0; white-space: pre-wrap;">
+    <div style="flex: 1; border: 1px solid #ccc; padding: 5px; border-radius: 5px; background-color: #f9f9f9; max-width: 200px; overflow-x: auto;">
+        <pre style="margin: 0; padding: 5px; font-size: 12px; line-height: 1.2; white-space: pre-wrap;">
 <code>
 public class HelloWorld {
     public static void main(String[] args) {
@@ -51,6 +51,7 @@ public class HelloWorld {
         </pre>
     </div>
 </div>
+
 
 
 
