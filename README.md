@@ -27,26 +27,34 @@
         </a>
     </div>
 </div>
-
-<div style="float: right; margin-top: 20px;">
-    <img src="https://i.pinimg.com/originals/91/90/8a/91908ad2f9aef293ed840739a291e9db.gif"
-        style="width: 350px; height: auto;" alt="Animated GIF" />
-</div>
-
-```java
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">
+    <div style="flex: 0 0 auto; margin-right: 20px;">
+        <img src="https://i.pinimg.com/originals/91/90/8a/91908ad2f9aef293ed840739a291e9db.gif"
+            style="width: 200px; height: auto;" alt="Animated GIF" />
+    </div>
+    <div style="flex: 1; border: 1px solid #ccc; padding: 10px; border-radius: 5px; background-color: #f9f9f9; overflow-x: auto;">
+        <pre style="margin: 0; white-space: pre-wrap;">
+<code>
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World, I am Rohan, IT sophomore at VJTI.");
         String[] qualities = about_me('I');
         System.out.println(String.join(" | ", qualities));
     }
-    
     static String[] about_me(char me) {
-        String[] qualities = {"Tech Enthusiast", "Passionate Developer", "Eloquent Speaker", "Competent Reader", "Diligent"};
+        String[] qualities = {"Tech Enthusiast","Passionate Developer",
+        "Eloquent Speaker","Competent Reader","Diligent"};
         return qualities;
     }
 }
-```
+</code>
+        </pre>
+    </div>
+</div>
+
+
+
+
 
 <!---
 Rohan20-10/Rohan20-10 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
